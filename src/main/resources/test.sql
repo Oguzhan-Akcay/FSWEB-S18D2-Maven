@@ -61,34 +61,34 @@ ALTER TABLE IF EXISTS public.tur
     OWNER to postgres;
 
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Hülya', 'Yiğit', 'K', '10A', 0, '1990-04-08 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Niyazi', 'Sevinç', 'E', '9B', 0,'1990-11-11 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('İsmail', 'Sevinç', 'E', '10B', 0,'1990-04-17 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Kenan', 'Emin', 'E', '9A', 0,'1988-02-23 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Sema', 'Bakır', 'K', '9B', 0,'1990-04-07 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Deniz', 'Kara', 'E', '9C', 0,'1989-07-21 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Betül', 'Coşkun', 'K', '11A', 0,'1990-01-10 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Sema', 'Rüzgar', 'K', '9C', 0,'1989-11-14 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Fadime', 'Dönmez', 'K', '9A', 0,'1989-09-11 00:00:00');
 INSERT INTO
-public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
+    public.ogrenci(ad, soyad, cinsiyet, sinif, puan, dtarih)
 VALUES('Rıza', 'Koç', 'E', '10B', 0,'1990-01-26 00:00:00');
 
 INSERT INTO public.tur(ad) VALUES('Dram');
